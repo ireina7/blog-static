@@ -1,2 +1,1 @@
-# blog-static
-Repo to store blog static package
+Static blog files here.

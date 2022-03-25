@@ -1126,18 +1126,6 @@ $c_Lblog_Main$.prototype.$js$exported$meth$openSideBar__O = (function() {
 $c_Lblog_Main$.prototype.$js$exported$meth$closeSideBar__O = (function() {
   this.closeSideBar__V()
 });
-Object.defineProperty($c_Lblog_Main$.prototype, "sideBarWidth", {
-  "get": (function() {
-    return this.$js$exported$prop$sideBarWidth__O()
-  }),
-  "configurable": true
-});
-$c_Lblog_Main$.prototype.openSideBar = (function() {
-  return this.$js$exported$meth$openSideBar__O()
-});
-$c_Lblog_Main$.prototype.closeSideBar = (function() {
-  return this.$js$exported$meth$closeSideBar__O()
-});
 Object.defineProperty($c_Lblog_Main$.prototype, "sideBarShow", {
   "get": (function() {
     return this.$js$exported$prop$sideBarShow__O()
@@ -1145,6 +1133,18 @@ Object.defineProperty($c_Lblog_Main$.prototype, "sideBarShow", {
   "set": (function(arg) {
     var prep0 = $uZ(arg);
     this.$js$exported$prop$sideBarShow__Z__O(prep0)
+  }),
+  "configurable": true
+});
+$c_Lblog_Main$.prototype.closeSideBar = (function() {
+  return this.$js$exported$meth$closeSideBar__O()
+});
+$c_Lblog_Main$.prototype.openSideBar = (function() {
+  return this.$js$exported$meth$openSideBar__O()
+});
+Object.defineProperty($c_Lblog_Main$.prototype, "sideBarWidth", {
+  "get": (function() {
+    return this.$js$exported$prop$sideBarWidth__O()
   }),
   "configurable": true
 });
