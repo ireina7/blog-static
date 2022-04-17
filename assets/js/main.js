@@ -946,7 +946,7 @@ function $c_Lblog_Main$() {
   this.Lblog_Main$__f_sideBarShow = false;
   this.Lblog_Main$__f_navBar = null;
   $n_Lblog_Main$ = this;
-  this.Lblog_Main$__f_assetsPath = (this.isStatic__Z() ? "./assets" : "/assets");
+  this.Lblog_Main$__f_assetsPath = (this.isStatic__Z() ? "../assets" : "/assets");
   var this$1 = $m_Lscalatags_JsDom$all$();
   var $$x7 = this$1.div__Lscalatags_JsDom$TypedTag().apply__sci_Seq__Lscalatags_JsDom$TypedTag($m_sr_ScalaRunTime$().wrapRefArray__AO__sci_ArraySeq(new ($d_Lscalatags_generic_Modifier.getArrayOf().constr)([$as_Lscalatags_generic_PixelStyle($m_Lscalatags_JsDom$all$().marginLeft__Lscalatags_generic_StyleMisc$MarginAuto()).$colon$eq__O__Lscalatags_generic_PixelStyleValue__Lscalatags_generic_StylePair(50, $m_Lscalatags_JsDom$all$().Lscalatags_JsDom$all$__f_intPixelStyle), $as_Lscalatags_generic_PixelStyle($m_Lscalatags_JsDom$all$().marginRight__Lscalatags_generic_StyleMisc$MarginAuto()).$colon$eq__O__Lscalatags_generic_PixelStyleValue__Lscalatags_generic_StylePair(50, $m_Lscalatags_JsDom$all$().Lscalatags_JsDom$all$__f_intPixelStyle), $m_Lscalatags_JsDom$all$().fontSize__Lscalatags_generic_Styles$fontSize$().$colon$eq__O__Lscalatags_generic_PixelStyleValue__Lscalatags_generic_StylePair(20, $m_Lscalatags_JsDom$all$().Lscalatags_JsDom$all$__f_intPixelStyle)])));
   var $$x6 = $m_sr_ScalaRunTime$();
@@ -1126,6 +1126,15 @@ $c_Lblog_Main$.prototype.$js$exported$meth$openSideBar__O = (function() {
 $c_Lblog_Main$.prototype.$js$exported$meth$closeSideBar__O = (function() {
   this.closeSideBar__V()
 });
+Object.defineProperty($c_Lblog_Main$.prototype, "sideBarWidth", {
+  "get": (function() {
+    return this.$js$exported$prop$sideBarWidth__O()
+  }),
+  "configurable": true
+});
+$c_Lblog_Main$.prototype.openSideBar = (function() {
+  return this.$js$exported$meth$openSideBar__O()
+});
 Object.defineProperty($c_Lblog_Main$.prototype, "sideBarShow", {
   "get": (function() {
     return this.$js$exported$prop$sideBarShow__O()
@@ -1138,15 +1147,6 @@ Object.defineProperty($c_Lblog_Main$.prototype, "sideBarShow", {
 });
 $c_Lblog_Main$.prototype.closeSideBar = (function() {
   return this.$js$exported$meth$closeSideBar__O()
-});
-$c_Lblog_Main$.prototype.openSideBar = (function() {
-  return this.$js$exported$meth$openSideBar__O()
-});
-Object.defineProperty($c_Lblog_Main$.prototype, "sideBarWidth", {
-  "get": (function() {
-    return this.$js$exported$prop$sideBarWidth__O()
-  }),
-  "configurable": true
 });
 var $d_Lblog_Main$ = new $TypeData().initClass({
   Lblog_Main$: 0
